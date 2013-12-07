@@ -1,0 +1,209 @@
+.ibutton-container{position:relative;height:27px;cursor:pointer;overflow:hidden;max-width:400px;-khtml-user-select:none;-o-user-select:none;-moz-user-select:none;-moz-user-focus:ignore;-moz-user-input:disabled;width:89px}.ibutton-container input{position:absolute;top:0;left:0;filter:alpha(opacity=0);-moz-opacity:.0;opacity:.0;-moz-user-input:enabled!important}.ibutton-handle{display:block;height:27px;cursor:inherit;position:absolute;top:0;left:0;width:0;background:transparent url(../images/ibutton-slider-default.png) no-repeat scroll 0 -54px;z-index:3;padding-left:3px;width:33px}.ibutton-handle-right{height:100%;width:100%;padding-right:3px;background:transparent url(../images/ibutton-slider-default.png) no-repeat scroll 100% -54px;z-index:3}.ibutton-handle-middle{height:100%;width:100%;background:transparent url(../images/ibutton-slider-default.png) no-repeat scroll 50% -54px;z-index:3}div.ibutton-label-on,div.ibutton-label-off{white-space:nowrap;font-size:17px;line-height:17px;font-weight:bold;font-family:Helvetica Neue,Arial,Helvetica,sans-serif;text-transform:uppercase;cursor:inherit;display:block;height:22px;position:absolute;width:auto;top:0;padding-top:5px;overflow:hidden;background:transparent url(../images/ibutton-slider-default.png) no-repeat scroll 0 0}div.ibutton-label-on{color:#fff;text-shadow:0 -1px 2px rgba(0,0,0,0.4);left:0;padding-top:5px;z-index:1}div.ibutton-label-on span{padding-left:5px}div.ibutton-label-off{color:#7c7c7c;background-position:100% 0;text-shadow:0 -1px 2px rgba(153,153,153,0.4);text-align:right;right:0;width:95%}div.ibutton-label-off span{padding-right:5px}.ibutton-container label{cursor:inherit;padding:1px 3px;font-size:1em!important}.ibutton-focus label{border:1px dotted #666!important;padding:0 2px}.ibutton-focus div.ibutton-label-on span label{border-color:#fff!important}.ibutton-padding-left,.ibutton-padding-right{position:absolute;top:4px;z-index:2;background:transparent url(../images/ibutton-slider-default.png) no-repeat scroll 0 -4px;width:3px;height:20px}.ibutton-padding-left{left:0}.ibutton-padding-right{right:0;background-position:100% -4px}.ibutton-active-handle .ibutton-handle{background-position:0 -108px}.ibutton-active-handle .ibutton-handle-right{background-position:100% -108px}.ibutton-active-handle .ibutton-handle-middle{background-position:50% -108px}.ibutton-disabled{cursor:not-allowed!important}.ibutton-disabled .ibutton-handle{background-position:0 -81px}.ibutton-disabled .ibutton-handle-right{background-position:100% -81px}.ibutton-disabled .ibutton-handle-middle{background-position:50% -81px}.ibutton-disabled div.ibutton-label-on{background-position:0 -27px}.ibutton-disabled div.ibutton-label-off{background-position:100% -27px}.ibutton-disabled .ibutton-padding-left{background-position:0 -27px}.ibutton-disabled .ibutton-padding-right{background-position:100% -27px}.ibutton-disabled div.ibutton-label-on{color:#fff}.ibutton-disabled div.ibutton-label-off{color:#cbcbcb}
+#optin-revolution .note{color:#a0a0a0;font-size:11px;font-style:italic}
+.fform .row{padding:6px 0;}.fform .description{font-size:11px}.fform .title{font-size:14px;font-weight:700}.wjui{float:left;width:120px}.wjui-box{float:left;width:300px;margin-top:5px;padding-left:20px}.fform .cl-picker{float:left;width:20px;height:20px;margin-top:-4px;border:1px solid #e0e0e0}.fform .cols{float:left;width:250px}.fform .status{color:red;font-style:italic}.fform #post-message{position:absolute;display:none;text-align:center;color:#ff8000;border:2px solid;font-size:16px;-moz-box-shadow:0 0 8px #ccc;-webkit-box-shadow:0 0 8px #ccc;box-shadow:0 0 8px #ccc;-moz-border-radius:8px;border-radius:8px;padding:10px;z-index: 9999;}.tmsg{position:absolute;background-color:#c00;color:#fff;font-style:italic;margin-top:16px;padding:2px}.list-img{float:left;margin:8px}.jstxt{float:left;width:16px;height:16px;background-color:#eee;color:#505050;text-align:center}.delete-icj{position:absolute;background:url(../images/delete-ic.png) no-repeat left top;width:12px;height:12px}.delete-ic{position:absolute;background:url(../images/delete-ic.png) no-repeat left top;width:12px;height:12px;margin:8px}.spin{position:absolute;background:url(../images/wait.gif);width:16px;height:11px;display:none;margin:8px 16px 0 0}.mail_opt{float:left;margin-right:14px}#tabs .ui-state-default a{color:#ccc!important}#tabs .ui-state-active a{color:#f90!important}.ifo{position:absolute;background:url(../images/info-icon.png) no-repeat left top;width:18px;height:18px}.wp-editor-container{border:none!important}.choice_graph{margin-top:6px;width:70%;text-align:right}.choice_graph ul{list-style:none;margin:0;padding:0}.choice_graph ul li{display:inline;padding:0 10px}#action_btn_view,#add_image_view{display:none;position:absolute;margin-left:145px;z-index:99;border:1px solid #b0b0b0;background-color:#fff;padding:2px}.ui-combobox{position:relative;display:inline-block}.ui-combobox-toggle{position:absolute;bottom:0;margin-left:-1px;height:1.7em;top:.1em;padding:0}.ui-combobox-input{color:#000!important;font-weight:400!important;margin:0;padding:.3em}.ui-menu-item a{background:none!important;border:none!important}.ui-menu-item a:hover{border:none!important;padding-left:6px!important}
+.fform .row label, .lbladmin{float:left;width:210px;padding-right:8px;}.fform .clear,.clear{clear:both}.fform .fbox,.left{float:left}.fform .rbox,.right{float:right}.wp-editor-tools,.mceStatusbar{display:none!important}.get-help{text-align:right;position:absolute;right:20px;margin-top:10px;}
+#poweredby img {cursor:pointer !important;}
+.col1 {float:left;width:70%;}
+.col2 {float:right;width:27%;margin-right:14px;}
+.need-support-box {padding:10px;border: 1px solid #d0d0d0;}
+.need-support-box a {color:#0016ff !important; text-decoration:underline;}
+.need-support-box h2 {font-weight:normal;}
+.spread-the-word-box {margin-top: 10px;padding:10px;border: 1px solid #d0d0d0;}
+.spread-the-word-box h2 {font-weight:normal;}
+.need-support-box, .spread-the-word-box, .social-box {border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;}
+
+#optin-revolution .or-social-icons {
+position:absolute;
+width: 98%;
+margin-top: 8px;
+}
+#optin-revolution .or-social-icons .social-center {margin: 0 auto;width: 336px;}
+#optin-revolution .or-social-icons ul {list-style:none;margin:0px;padding:0px;}
+#optin-revolution .or-social-icons ul li {display:inline;}
+#optin-revolution .or-social-icons ul li a {background-image: url(../images/optinrev-social-icons.png);background-repeat:no-repeat;margin-right:10px;}
+#optin-revolution .or-social-icons ul li a.flike {float:left;width:32px;height:32px;background-position: 0 0;}
+#optin-revolution .social-box ul li a.flike iframe {opacity: 0;}
+#optin-revolution .or-social-icons ul li a.tweet {float:left;width:32px;height:32px;background-position: -32px 0px;}
+#optin-revolution .or-social-icons ul li a.googleplus {float:left;width:32px;height:32px;background-position: -64px 0px;}
+#optin-revolution .or-social-icons ul li a.delicious {float:left;width:32px;height:32px;background-position: -96px 0px;}
+#optin-revolution .or-social-icons ul li a.stumbleupon {float:left;width:32px;height:32px;background-position: -128px 0px;}
+#optin-revolution .or-social-icons ul li a.digg {float:left;width:32px;height:32px;background-position: -160px 0px;}
+#optin-revolution .or-social-icons ul li a.inshare {float:left;width:32px;height:32px;background-position: -192px 0px;}
+#optin-revolution .or-social-icons ul li a.pinit {float:left;width:32px;height:32px;background-position: -224px 0px;}
+
+
+#optin-revolution .social-box {margin-top: 10px;padding:10px;border: 1px solid #d0d0d0;}
+#optin-revolution .social-box a {color:#0016ff !important;}
+#optin-revolution .social-box ul {list-style:none;margin:0px;padding:0px;}
+#optin-revolution .social-box ul li {display:inline;}
+#optin-revolution .social-box ul li a {background-image: url(../images/optinrev-social-icons.png);background-repeat:no-repeat;margin-right:10px;margin-top: 8px;}
+#optin-revolution .social-box ul li a.flike {float:left;width:32px;height:32px;background-position: 0 0;}
+#optin-revolution .social-box ul li a.flike iframe {opacity: 0;}
+#optin-revolution .social-box ul li a.tweet {float:left;width:32px;height:32px;background-position: -32px 0px;}
+#optin-revolution .social-box ul li a.googleplus {float:left;width:32px;height:32px;background-position: -64px 0px;}
+#optin-revolution .social-box ul li a.delicious {float:left;width:32px;height:32px;background-position: -96px 0px;}
+#optin-revolution .social-box ul li a.stumbleupon {float:left;width:32px;height:32px;background-position: -128px 0px;}
+#optin-revolution .social-box ul li a.digg {float:left;width:32px;height:32px;background-position: -160px 0px;}
+#optin-revolution .social-box ul li a.inshare {float:left;width:32px;height:32px;background-position: -192px 0px;}
+#optin-revolution .social-box ul li a.pinit {float:left;width:32px;height:32px;background-position: -224px 0px;}
+#optin-revolution .social-box h2 {font-weight:normal;padding:0px;}
+
+.fform .row label .toggle span {font-weight:normal;padding-left:10px;}
+#is-mobile-tip {float:left;margin: 4px 0 0 10px;font-size: 12px;}
+#optinrev-nag {font-size: 18px; font-weight: bold;margin-bottom: 15px;padding: 10px 0 10px 0;}
+.update-nag .red-text {color:red;}
+.update-nag a {color:#0016ff;}
+.popup-option div.rw {padding: 4px 0 4px 0;}
+
+#optin-revolution .pro-license a {color:#0016ff;}
+#optin-revolution .pro-license .row label {width: 80px; text-align:right;padding-right: 10px;margin-top: 4px;}
+#optin-revolution .pro-license .row input[type="text"] {padding: 6px;width: 250px;}
+#optin-revolution .pro-license .row input[type="submit"] {padding: 4px 10px 4px 10px;}
+
+.updated a {color:#0016ff !important; text-decoration:underline;}
+.get-help a {color:#0016ff !important; text-decoration:underline;}
+
+.optinrev_button {
+	border: 1px solid #339900 !important;
+	color: #fff !important;
+	background: #339900 url(../images/button-grad.png) repeat-x scroll left bottom !important;
+	padding: 8px 14px 8px 14px !important;
+	font-size: 16px;
+	letter-spacing: 1px;
+	border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+	-webkit-border-radius: 4px !important;
+	-moz-box-shadow:    0 0 4px #fff;
+	-webkit-box-shadow: 0 0 4px #fff;
+	box-shadow:         0 0 4px #fff;
+	cursor: pointer;
+	text-shadow: 1px 1px 2px #000;
+}
+
+#optin-revolution .optinrev_xbutton {
+	border: 1px solid #a0a0a0 !important;
+	color: #000 !important;	
+  background: #fff url(../images/button-grad2.png) repeat-x scroll left bottom !important;
+	padding: 4px 4px 4px 4px !important;
+	font-size: 12px;
+	border-radius: 3px !important;
+	-moz-border-radius: 3px !important;
+	-webkit-border-radius: 3px !important;
+	-moz-box-shadow:    0 0 2px #fff;
+	-webkit-box-shadow: 0 0 2px #fff;
+	box-shadow:         0 0 2px #fff;
+	cursor: pointer;
+}
+
+#optin-revolution .optinrev_xbutton:hover { background: none !important; }
+
+.optinrev_button:hover {border: 1px solid #336600 !important;}
+.optinrev_dragtip {position:absolute;width:240px !important;margin: -40px 0px 0px 30px !important;border: 1px solid #cccc66 !important;background-color:#ffffcc !important;padding: 4px !important;
+border-radius:4px !important;
+-moz-border-radius:4px !important;
+-webkit-border-radius:4px !important;
+font-size: 12px;
+}
+.optinrev_dragtip img {position:absolute;width: 20px !important; height: 20px !important;}
+
+#optinrev-banner {background:none !important;border:none;width: 728px; height: 90px;cursor:pointer;}
+#optinrev-banner .advertise {width: 728px; height: 90px;border:none important;}
+
+/*PRO*/
+
+.optin-tab {float:right;margin: 4px 0 0 30px;}
+.optin-tab ul {list-style:none;margin:0px;padding:0px;}
+.optin-tab ul li {display:inline;padding-right: 10px;margin-right:10px;border-right: 1px solid #ccc;}
+.optin-tab ul li:last-child {border: none;}
+.optin-tab ul li a {font-size:14px;text-decoration:none;}
+.optin-tab ul li a.active {font-weight:bold;}
+
+.pro-upgrade {color:#0016ff !important; font-weight: bold !important;}
+
+.inmsg {display:none;padding: 8px;margin: 8px 0 8px 0;background-color:#ffccff;color:red;width:800px;}
+
+#optin-revolution {padding-bottom: 60px;}
+
+#optin-revolution .optinrev-settab2,
+#optin-revolution .optinrev-settab3,
+#optin-revolution .optinrev-settab4 {display:none;}
+
+#optin-revolution .foptin_ifo {text-align:center;width: 520px;display:none;}
+#optin-revolution .foptin_active h2 {font-size: 90px;color:#00cc00;font-weight:bold;}
+#optin-revolution .foptin_deactivate a {font-size: 40px;color:#0000ff !important;font-weight:bold;}
+
+h2 .nav-tab {font-size: 14px !important;font-weight:bold;}
+
+#optin-revolution .optinrev_mail_providers {
+	margin-bottom: 10px;
+}
+#optin-revolution .optinrev_mail_providers .box1 {
+	float: left;
+	width: 200px;
+}
+#optin-revolution .optinrev_mail_providers .box1 ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+#optin-revolution .optinrev_mail_providers .box1 li {
+	cursor: pointer;
+	height: 40px;
+	line-height: 40px;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	margin: 0px;
+}
+#optin-revolution .optinrev_mail_providers .box1 li img {
+	margin: 0 auto;
+}
+#optin-revolution .optinrev_mail_providers .box1 li:last-child {
+	border-bottom: none;
+}
+#optin-revolution .optinrev_mail_providers .box1 li:hover {
+	background-color: #eee;
+}
+#optin-revolution .optinrev_mail_providers .box1 li.active {
+	background-color: #eee;
+}
+#optin-revolution .optinrev_mail_providers .box2 {
+	float: left;
+	border-left: 1px solid #ccc;
+	padding-left: 30px;
+	width: 80%;
+  min-height: 400px;
+}
+#optin-revolution .optinrev_mail_providers .box2 input[type="password"], .optinrev_mail_providers .box2 input[type="text"] {
+	padding: 4px;
+	font-size: 18px;
+	color: #909090;
+}
+#optin-revolution .optinrev_mail_providers .box2 ul li {
+	padding-bottom: 16px;
+	padding-right: 10px;
+}
+#optin-revolution .optinrev_mail_providers a.button {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+
+#optinrev-footer {
+color: #777;
+position: absolute;
+bottom: 20px;
+left: 0;
+right: 0;
+margin-right: 20px;
+margin-left: 165px;
+border-top: 1px solid #dfdfdf;
+padding: 10px 0 60px 0;
+}
+
+#optinrev-footer a {color:#0016ff;}
+
+#optin-revolution h3 a, #optinrev_need_longer a {color:#0016ff; font-weight:bold;}
+
+#optin-revolution #optinrev_ctcurl {font-size: 12px;}
+#optin-revolution .optinrev_ctc {margin-bottom: 10px;}

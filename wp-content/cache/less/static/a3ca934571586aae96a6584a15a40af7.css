@@ -1,0 +1,433 @@
+/* Thursday 5th of December 2013 08:02:09 PM*/
+
+div#nextend-smart-slider-0 .smart-slider-animate-fade.smart-slider-animate-in {
+  z-index: 3;
+}
+div#nextend-smart-slider-0 .smart-slider-animate-fade.smart-slider-animate-out {
+  z-index: 2;
+}
+div#nextend-smart-slider-0 .smart-slider-animate-slide.smart-slider-animate-in {
+  z-index: 2;
+  opacity: 1;
+}
+div#nextend-smart-slider-0 .smart-slider-animate-slide.smart-slider-animate-out {
+  z-index: 3;
+  opacity: 1;
+}
+div#nextend-smart-slider-0 {
+  margin: 0px 0px 0px 0px;
+  position: relative;
+}
+div#nextend-smart-slider-0.nextend-slider-fadeload {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+div#nextend-smart-slider-0.nextend-slider-fadeload.nextend-loaded {
+  opacity: 1;
+  position: relative;
+}
+div#nextend-smart-slider-0 a,
+div#nextend-smart-slider-0 a:focus {
+  outline: none !important;
+}
+div#nextend-smart-slider-0 h1,
+div#nextend-smart-slider-0 h2,
+div#nextend-smart-slider-0 h3,
+div#nextend-smart-slider-0 h4,
+div#nextend-smart-slider-0 h5,
+div#nextend-smart-slider-0 h6,
+div#nextend-smart-slider-0 p {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  height: auto;
+  width: auto;
+  border: 0;
+  box-shadow: none;
+}
+div#nextend-smart-slider-0 img {
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background: transparent;
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+div#nextend-smart-slider-0 .smart-slider-canvas {
+  position: relative;
+}
+div#nextend-smart-slider-0 .smart-slider-canvas,
+div#nextend-smart-slider-0 .smart-slider-layer {
+  overflow: hidden;
+}
+div#nextend-smart-slider-0 .smart-slider-canvas-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+div#nextend-smart-slider-0 .sliderfont1 {
+  color: #ffffff;font-size:320%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont1 a,
+div#nextend-smart-slider-0 .sliderfont1 a:LINK,
+div#nextend-smart-slider-0 .sliderfont1 a:VISITED,
+div#nextend-smart-slider-0 .sliderfont1 a:FOCUS,
+div#nextend-smart-slider-0 .sliderfont1 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont1 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont2 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:320%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont2 a,
+div#nextend-smart-slider-0 .sliderfont2 a:LINK,
+div#nextend-smart-slider-0 .sliderfont2 a:VISITED,
+div#nextend-smart-slider-0 .sliderfont2 a:FOCUS,
+div#nextend-smart-slider-0 .sliderfont2 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont2 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont3 {
+  color: #ffffff;font-size:170%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont3 a,
+div#nextend-smart-slider-0 .sliderfont3 a:LINK,
+div#nextend-smart-slider-0 .sliderfont3 a:VISITED,
+div#nextend-smart-slider-0 .sliderfont3 a:FOCUS,
+div#nextend-smart-slider-0 .sliderfont3 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont3 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont4 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:170%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont4 a,
+div#nextend-smart-slider-0 .sliderfont4 a:LINK,
+div#nextend-smart-slider-0 .sliderfont4 a:VISITED,
+div#nextend-smart-slider-0 .sliderfont4 a:FOCUS,
+div#nextend-smart-slider-0 .sliderfont4 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont4 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont5 {
+  color: #ffffff;font-size:114%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont5 a,
+div#nextend-smart-slider-0 .sliderfont5 a:LINK,
+div#nextend-smart-slider-0 .sliderfont5 a:VISITED,
+div#nextend-smart-slider-0 .sliderfont5 a:FOCUS,
+div#nextend-smart-slider-0 .sliderfont5 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont5 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont6 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:114%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont6 a,
+div#nextend-smart-slider-0 .sliderfont6 a:LINK,
+div#nextend-smart-slider-0 .sliderfont6 a:VISITED,
+div#nextend-smart-slider-0 .sliderfont6 a:FOCUS,
+div#nextend-smart-slider-0 .sliderfont6 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont6 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont7 {
+  color: #ffffff;font-size:90%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont7 a,
+div#nextend-smart-slider-0 .sliderfont7 a:LINK,
+div#nextend-smart-slider-0 .sliderfont7 a:VISITED,
+div#nextend-smart-slider-0 .sliderfont7 a:FOCUS,
+div#nextend-smart-slider-0 .sliderfont7 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont7 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont8 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:90%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.1;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont8 a,
+div#nextend-smart-slider-0 .sliderfont8 a:LINK,
+div#nextend-smart-slider-0 .sliderfont8 a:VISITED,
+div#nextend-smart-slider-0 .sliderfont8 a:FOCUS,
+div#nextend-smart-slider-0 .sliderfont8 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.1;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont8 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.1;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont9 {
+  color: #ffffff;font-size:140%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont9 a,
+div#nextend-smart-slider-0 .sliderfont9 a:LINK,
+div#nextend-smart-slider-0 .sliderfont9 a:VISITED,
+div#nextend-smart-slider-0 .sliderfont9 a:FOCUS,
+div#nextend-smart-slider-0 .sliderfont9 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont9 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont10 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:140%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont10 a,
+div#nextend-smart-slider-0 .sliderfont10 a:LINK,
+div#nextend-smart-slider-0 .sliderfont10 a:VISITED,
+div#nextend-smart-slider-0 .sliderfont10 a:FOCUS,
+div#nextend-smart-slider-0 .sliderfont10 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont10 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont11 {
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont11 a,
+div#nextend-smart-slider-0 .sliderfont11 a:LINK,
+div#nextend-smart-slider-0 .sliderfont11 a:VISITED,
+div#nextend-smart-slider-0 .sliderfont11 a:FOCUS,
+div#nextend-smart-slider-0 .sliderfont11 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont11 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont12 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont12 a,
+div#nextend-smart-slider-0 .sliderfont12 a:LINK,
+div#nextend-smart-slider-0 .sliderfont12 a:VISITED,
+div#nextend-smart-slider-0 .sliderfont12 a:FOCUS,
+div#nextend-smart-slider-0 .sliderfont12 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfont12 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfontcustom1 {
+  color: #1abc9c;font-size:360%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfontcustom1 a,
+div#nextend-smart-slider-0 .sliderfontcustom1 a:LINK,
+div#nextend-smart-slider-0 .sliderfontcustom1 a:VISITED,
+div#nextend-smart-slider-0 .sliderfontcustom1 a:FOCUS,
+div#nextend-smart-slider-0 .sliderfontcustom1 a:ACTIVE {
+  background: none;
+  color: #1abc9c;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfontcustom1 a:HOVER {
+  background: none;
+  color: #1abc9c;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfontcustom2 {
+  color: #ffffff;font-size:140%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfontcustom2 a,
+div#nextend-smart-slider-0 .sliderfontcustom2 a:LINK,
+div#nextend-smart-slider-0 .sliderfontcustom2 a:VISITED,
+div#nextend-smart-slider-0 .sliderfontcustom2 a:FOCUS,
+div#nextend-smart-slider-0 .sliderfontcustom2 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfontcustom2 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfontcustom3 {
+  color: #1abc9c;font-size:120%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfontcustom3 a,
+div#nextend-smart-slider-0 .sliderfontcustom3 a:LINK,
+div#nextend-smart-slider-0 .sliderfontcustom3 a:VISITED,
+div#nextend-smart-slider-0 .sliderfontcustom3 a:FOCUS,
+div#nextend-smart-slider-0 .sliderfontcustom3 a:ACTIVE {
+  background: none;
+  color: #1abc9c;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfontcustom3 a:HOVER {
+  background: none;
+  color: #1abc9c;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfontcustom4 {
+  color: #1abc9c;font-size:120%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfontcustom4 a,
+div#nextend-smart-slider-0 .sliderfontcustom4 a:LINK,
+div#nextend-smart-slider-0 .sliderfontcustom4 a:VISITED,
+div#nextend-smart-slider-0 .sliderfontcustom4 a:FOCUS,
+div#nextend-smart-slider-0 .sliderfontcustom4 a:ACTIVE {
+  background: none;
+  color: #1abc9c;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .sliderfontcustom4 a:HOVER {
+  background: none;
+  color: #1abc9c;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-0 .nextend-widget-always {
+  -webkit-perspective: 1;
+}
+div#nextend-smart-slider-0 .nextend-widget-hover {
+  -webkit-perspective: 1;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease;
+  -moz-transition: opacity 0.4s ease;
+  -o-transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease;
+}
+div#nextend-smart-slider-0.nextend-widget-hover-show .nextend-widget-hover {
+  opacity: 1;
+}
+div#nextend-smart-slider-0 .smart-slider-canvas .nextend-slide-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: none !important;
+  height: auto;
+}
+div#nextend-smart-slider-0 {
+  width: 600px;
+  height: 400px;
+  float: left;
+}
+div#nextend-smart-slider-0 .smart-slider-border1 {
+  position: relative;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  height: 400px;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 0px;
+  border-color: #3E3E3E;
+  border-color: RGBA(62,62,62,1);
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-topleft: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-repeat: repeat;
+  background-position: 0 0;
+  background-size: auto;
+}
+div#nextend-smart-slider-0 .smart-slider-border2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-topleft: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  overflow: hidden;
+}
+.x-firefox div#nextend-smart-slider-0 .smart-slider-border2 {
+  opacity: 0.99999;
+}
+div#nextend-smart-slider-0 .smart-slider-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 400px;
+  z-index: 2;
+  display: none;
+}
+div#nextend-smart-slider-0 .smart-slider-canvas-inner {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+div#nextend-smart-slider-0 .smart-slider-slide-active {
+  z-index: 3;
+  display: block;
+}
+div#nextend-smart-slider-0 .smart-slider-layer {
+  position: absolute;
+}
+div#nextend-smart-slider-0 .nextend-flux {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+div#nextend-smart-slider-0 .nextend-flux img {
+  max-width: none !important;
+  opacity: 0.999;
+}
+div#nextend-smart-slider-0 .current {
+  border: 0;
+  padding: 0;
+}

@@ -1,0 +1,1 @@
+[05-Dec-2013 18:46:05] PHP Fatal error:  Call to undefined function  bp_get_groups_slug() in /home/grifare/public_html/webforum/wp-content/plugins/buddypress/bp-activity/bp-activity-loader.php on line 292

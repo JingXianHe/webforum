@@ -1,0 +1,94 @@
+.joyride-close-tip {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: rgba(255,255,255,0.4) !important;
+  text-decoration: none;
+  font-family: Verdana, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  border-bottom: none !important;
+}
+
+.joyride-close-tip:hover {
+  color: rgba(255,255,255,0.9) !important;
+}
+
+.qtip .joyride-content-wrapper{
+  font-family: 'Montserrat',Arial,sans-serif;
+  margin-bottom: 8px;
+}
+
+.qtip .joyride-content-wrapper h2{
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.qtip .joyride-content-wrapper p{
+  text-align: justify;  
+  color: #e3e9f0;
+  margin-bottom: 14px;
+}
+
+
+.qtip .joyride-content-wrapper .joyride-close-tip,
+.qtip .joyride-content-wrapper .joyride-next-tip{
+  text-decoration: none !important;
+}
+
+.qtip .joyride-content-wrapper .joyride-next-tip{ 	
+    background: #2A99E7;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #2A99E7 0%, #1D6ADD 100%);
+    
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #2A99E7 0%, #1D6ADD 100%);
+    
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #2A99E7 0%, #1D6ADD 100%);
+    
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2A99E7), color-stop(1, #1D6ADD));
+    
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #2A99E7 0%, #1D6ADD 100%);
+    
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #2A99E7 0%, #1D6ADD 100%);
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+    width: 50px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    box-shadow: 0 0 0 1px RGBA(0,0,0,0.2), 0 1px 2px 0 RGBA(0,0,0,0.5);
+}
+
+
+.qtip .joyride-content-wrapper .joyride-next-tip:HOVER{
+  background: #2A8ED5;
+  /* IE10 Consumer Preview */ 
+  background-image: -ms-linear-gradient(top, #2A8ED5 0%, #1B62CC 100%);
+  
+  /* Mozilla Firefox */ 
+  background-image: -moz-linear-gradient(top, #2A8ED5 0%, #1B62CC 100%);
+  
+  /* Opera */ 
+  background-image: -o-linear-gradient(top, #2A8ED5 0%, #1B62CC 100%);
+  
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2A8ED5), color-stop(1, #1B62CC));
+  
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-linear-gradient(top, #2A8ED5 0%, #1B62CC 100%);
+  
+  /* W3C Markup, IE10 Release Preview */ 
+  background-image: linear-gradient(to bottom, #2A8ED5 0%, #1B62CC 100%);
+}

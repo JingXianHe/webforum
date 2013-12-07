@@ -1,0 +1,18 @@
+<root translate="1">
+    <params name="generator" label="Generator_settings">
+        <param name="enabled" type="onoff" label="Enabled" default="0" />
+        <param label="Generators with full version" type="trial" name="trial" src="http://www.nextendweb.com/demo/smartslider2/trial/generators_joomla.png" wpsrc="http://www.nextendweb.com/demo/smartslider2/trial/generators_wp.png" />
+        
+        <param size="10" class=" heightauto" name="source" type="plugingroup" label="Source" plugingroup="nextendslidergenerator" method="onNextendSliderGeneratorList" file="config.xml" php="generator.php" description="Choose_the_generator_what_you_would_like_to_use_It_will_updates_the_Variables_field" />
+
+        <param type="mixed" name="generateslides" label="Slides" default="5|*|0|*|0" description="If_create_slides_disabled_the_slides_will_only_generated_on_frontend_and_wont_exist_in_the_slide_list_on_the_backend_If_turned_on_then_the_slides_will_be_generated_as_a_dynamic_slides_with_vairables_If_static_slides_is_on_then_the_variables_turn_into_real_content">
+            <param type="text" label="Number" style="width:30px;"/>
+            <param type="onoff" label="Create_slides"/>
+            <param type="onoff" label="Static_slides"/>
+        </param>
+
+        <param type="text" name="generatorgroup" label="Group_result" default="1" style="width:30px;" description="This_option_allows_you_to_show_multiple_record_from_the_source_generator_on_one_slide" />
+
+        <param name="variables" type="container" label="Variables" description="You_can_copy_and_paste_these_variables_into_any_field_of_the_slide_editor_These_variables_will_turn_into_real_data_when_the_slider_shows" />
+    </params>
+</root>

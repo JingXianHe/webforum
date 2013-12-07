@@ -1,0 +1,803 @@
+/* Thursday 5th of December 2013 07:36:34 PM*/
+
+.nextend-transition {
+    cursor: pointer;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+}
+
+.nextend-element .nextend-transition{
+    margin-top: 0;
+}
+
+.nextend-transition-previous-my-test,
+.nextend-transition-next-my-test{ 
+    margin-top: -30px;
+    width: 60px;
+    height: 60px;
+}
+
+.nextend-transition .inner,
+.nextend-transition .outer{    
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+}
+
+.nextend-transition-previous-my-test .outer,
+.nextend-transition-previous-my-test .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/previous/my-test.png);
+}
+
+.nextend-transition-next-my-test .outer,
+.nextend-transition-next-my-test .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/next/my-test.png);
+}
+
+.nextend-transition-previous-my-test-dark .outer,
+.nextend-transition-previous-my-test-dark .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/previous/my-test-dark.png);
+}
+
+.nextend-transition-next-my-test-dark .outer,
+.nextend-transition-next-my-test-dark .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/next/my-test-dark.png);
+}
+  
+.nextend-transition-previous-my-test .outer,
+.nextend-transition-next-my-test .outer{ 
+    width: 60px;
+    height: 60px; 
+    background-color: RGBA(41,48,55,.9);
+}
+
+.nextend-transition-previous-my-test-dark .outer,
+.nextend-transition-next-my-test-dark .outer{ 
+    width: 60px;
+    height: 60px; 
+    background-color: RGBA(252,252,252,.9);
+}  
+    
+.nextend-transition-previous-my-test .inner,
+.nextend-transition-next-my-test .inner{  
+    width: 60px;
+    height: 60px;
+    left: 60px;
+    top: 0;
+    position: absolute;
+    z-index: 1000;    
+    background-color: #7670c7;;
+}
+
+.nextend-transition-previous-my-test-dark .inner,
+.nextend-transition-next-my-test-dark .inner{  
+    width: 60px;
+    height: 60px;
+    left: 60px;
+    top: 0;
+    position: absolute;
+    z-index: 1000;    
+    background-color: #7670c7;;
+}
+
+.nextend-transition.nextend-transition-previous-my-test .inner,
+.nextend-transition.nextend-transition-previous-my-test-dark .inner{  
+    left: 60px;
+}
+
+.nextend-transition.nextend-transition-next-my-test .inner,
+.nextend-transition.nextend-transition-next-my-test-dark .inner{  
+    left: -60px;
+}
+
+.nextend-transition-previous-my-test:HOVER .inner,
+.nextend-transition-previous-my-test:HOVER .outer,
+.nextend-transition-previous-my-test-dark:HOVER .inner,
+.nextend-transition-previous-my-test-dark:HOVER .outer{  
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);        
+}
+
+.nextend-transition-next-my-test:HOVER .inner,
+.nextend-transition-next-my-test:HOVER .outer,
+.nextend-transition-next-my-test-dark:HOVER .inner,
+.nextend-transition-next-my-test-dark:HOVER .outer{  
+    -moz-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);        
+}
+
+/* ROUNDED */
+
+.nextend-transition-previous-rounded,
+.nextend-transition-next-rounded,
+.nextend-transition-previous-rounded-dark,
+.nextend-transition-next-rounded-dark{ 
+    margin-top: -16px;
+    width: 32px;
+    height: 32px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.nextend-transition-previous-rounded .outer,
+.nextend-transition-previous-rounded .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/previous/rounded.png);
+}
+
+.nextend-transition-next-rounded .outer,
+.nextend-transition-next-rounded .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/next/rounded.png);
+}
+.nextend-transition-previous-rounded-dark .outer,
+.nextend-transition-previous-rounded-dark .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/previous/rounded-dark.png);
+}
+
+.nextend-transition-next-rounded-dark .outer,
+.nextend-transition-next-rounded-dark .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/next/rounded-dark.png);
+}
+
+.nextend-transition-previous-rounded .outer,
+.nextend-transition-next-rounded .outer{ 
+    width: 32px;
+    height: 32px; 
+    background-color: RGBA(41,48,55,.9);
+} 
+
+.nextend-transition-previous-rounded-dark .outer,
+.nextend-transition-next-rounded-dark .outer{ 
+    width: 32px;
+    height: 32px; 
+    background-color: RGBA(252,252,252,.9);
+}  
+    
+.nextend-transition-previous-rounded .inner,
+.nextend-transition-next-rounded .inner{  
+    width: 32px;
+    height: 32px;
+    top: 0;
+    position: absolute;
+    z-index: 1000;    
+    background-color: #7670c7;
+    opacity: 0;
+}
+    
+.nextend-transition-previous-rounded-dark .inner,
+.nextend-transition-next-rounded-dark .inner{  
+    width: 32px;
+    height: 32px;
+    top: 0;
+    position: absolute;
+    z-index: 1000;    
+    background-color: #7670c7;
+    opacity: 0;
+}
+
+.nextend-transition-previous-rounded:HOVER .inner,
+.nextend-transition-next-rounded:HOVER .inner,
+.nextend-transition-previous-rounded-dark:HOVER .inner,
+.nextend-transition-next-rounded-dark:HOVER .inner{  
+  opacity: 1;   
+}
+
+/* RECTANGLE */
+
+.nextend-transition-previous-rectangle,
+.nextend-transition-next-rectangle,
+.nextend-transition-previous-rectangle-dark,
+.nextend-transition-next-rectangle-dark{ 
+    margin-top: -16px;
+    width: 32px;
+    height: 60px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.nextend-transition-previous-rectangle .outer,
+.nextend-transition-previous-rectangle .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/previous/rectangle.png);
+}
+
+.nextend-transition-next-rectangle .outer,
+.nextend-transition-next-rectangle .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/next/rectangle.png);
+}
+
+.nextend-transition-previous-rectangle-dark .outer,
+.nextend-transition-previous-rectangle-dark .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/previous/rectangle-dark.png);
+}
+
+.nextend-transition-next-rectangle-dark .outer,
+.nextend-transition-next-rectangle-dark .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/next/rectangle-dark.png);
+}
+
+
+.nextend-transition-previous-rectangle .outer,
+.nextend-transition-next-rectangle .outer{ 
+    width: 32px;
+    height: 60px; 
+    background-color: RGBA(41,48,55,.9);
+}
+
+
+.nextend-transition-previous-rectangle-dark .outer,
+.nextend-transition-next-rectangle-dark .outer{ 
+    width: 32px;
+    height: 60px; 
+    background-color: RGBA(252,252,252,.9);
+}  
+    
+.nextend-transition-previous-rectangle .inner,
+.nextend-transition-next-rectangle .inner{  
+    width: 32px;
+    height: 60px;
+    top: 0;
+    position: absolute;
+    z-index: 1000;    
+    background-color: #7670c7;
+    opacity: 0;
+}
+
+.nextend-transition-previous-rectangle-dark .inner,
+.nextend-transition-next-rectangle-dark .inner{  
+    width: 32px;
+    height: 60px;
+    top: 0;
+    position: absolute;
+    z-index: 1000;    
+    background-color: #7670c7;
+    opacity: 0;
+}
+
+.nextend-transition-previous-rectangle:HOVER .inner,
+.nextend-transition-next-rectangle:HOVER .inner,
+.nextend-transition-previous-rectangle-dark:HOVER .inner,
+.nextend-transition-next-rectangle-dark:HOVER .inner{  
+  opacity: 1;   
+}
+
+/* SQUARE */
+
+.nextend-transition-previous-square,
+.nextend-transition-next-square{
+  margin-top: -16px;
+}
+
+.nextend-transition-previous-square .outer,
+.nextend-transition-previous-square .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/previous/square.png);
+}
+
+.nextend-transition-next-square .outer,
+.nextend-transition-next-square .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/next/square.png);
+}
+
+.nextend-transition-previous-square-dark .outer,
+.nextend-transition-previous-square-dark .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/previous/square-dark.png);
+}
+
+.nextend-transition-next-square-dark .outer,
+.nextend-transition-next-square-dark .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/next/square-dark.png);
+}
+  
+.nextend-transition-previous-square .outer,
+.nextend-transition-next-square .outer{ 
+    width: 32px;
+    height: 32px; 
+    background-color: RGBA(41,48,55,.9);
+}
+
+.nextend-transition-previous-square-dark .outer,
+.nextend-transition-next-square-dark .outer{ 
+    width: 32px;
+    height: 32px; 
+    background-color: RGBA(252,252,252,.9);
+}  
+    
+.nextend-transition-previous-square .inner,
+.nextend-transition-next-square .inner{  
+    width: 32px;
+    height: 32px;
+    left: 32px;
+    top: 0;
+    position: absolute;
+    z-index: 1000;    
+    background-color: #7670c7;;
+}
+
+.nextend-transition-previous-square-dark .inner,
+.nextend-transition-next-square-dark .inner{  
+    width: 32px;
+    height: 32px;
+    left: 32px;
+    top: 0;
+    position: absolute;
+    z-index: 1000;    
+    background-color: #7670c7;;
+}
+
+.nextend-transition.nextend-transition-previous-square .inner,
+.nextend-transition.nextend-transition-previous-square-dark .inner{  
+    left: 32px;
+}
+
+.nextend-transition.nextend-transition-next-square .inner,
+.nextend-transition.nextend-transition-next-square-dark .inner{  
+    left: -32px;
+}
+
+.nextend-transition-previous-square:HOVER .inner,
+.nextend-transition-previous-square:HOVER .outer,
+.nextend-transition-previous-square-dark:HOVER .inner,
+.nextend-transition-previous-square-dark:HOVER .outer{  
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);        
+}
+
+.nextend-transition-next-square:HOVER .inner,
+.nextend-transition-next-square:HOVER .outer,
+.nextend-transition-next-square-dark:HOVER .inner,
+.nextend-transition-next-square-dark:HOVER .outer{  
+    -moz-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);        
+}
+
+/* SQUARE TOP */
+.nextend-transition-previous-square-top,
+.nextend-transition-next-square-top{
+  margin-top: -16px;
+}
+
+.nextend-transition-previous-square-top .outer,
+.nextend-transition-previous-square-top .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/previous/square-top.png);
+}
+
+.nextend-transition-next-square-top .outer,
+.nextend-transition-next-square-top .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/next/square-top.png);
+}
+
+.nextend-transition-previous-square-top-dark .outer,
+.nextend-transition-previous-square-top-dark .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/previous/square-top-dark.png);
+}
+
+.nextend-transition-next-square-top-dark .outer,
+.nextend-transition-next-square-top-dark .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/next/square-top-dark.png);
+}
+  
+.nextend-transition-previous-square-top .outer,
+.nextend-transition-next-square-top .outer{ 
+    width: 32px;
+    height: 32px; 
+    background-color: RGBA(41,48,55,.9);
+}
+
+.nextend-transition-previous-square-top-dark .outer,
+.nextend-transition-next-square-top-dark .outer{ 
+    width: 32px;
+    height: 32px; 
+    background-color: RGBA(252,252,252,.9);
+}  
+    
+.nextend-transition-previous-square-top .inner,
+.nextend-transition-next-square-top .inner{  
+    width: 32px;
+    height: 32px;
+    top: 32px;
+    position: absolute;
+    z-index: 1000;    
+    background-color: #7670c7;;
+}
+
+.nextend-transition-previous-square-top-dark .inner,
+.nextend-transition-next-square-top-dark .inner{  
+    width: 32px;
+    height: 32px;
+    top: 0;
+    position: absolute;
+    z-index: 1000;    
+    background-color: #7670c7;;
+}
+
+.nextend-transition.nextend-transition-next-square-top .inner,
+.nextend-transition.nextend-transition-next-square-top-dark .inner,
+.nextend-transition.nextend-transition-previous-square-top .inner,
+.nextend-transition.nextend-transition-previous-square-top-dark .inner{  
+    top: -32px;
+}
+
+.nextend-transition-previous-square-top:HOVER .inner,
+.nextend-transition-previous-square-top:HOVER .outer,
+.nextend-transition-previous-square-top-dark:HOVER .inner,
+.nextend-transition-previous-square-top-dark:HOVER .outer{  
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);        
+}
+
+.nextend-transition-next-square-top:HOVER .inner,
+.nextend-transition-next-square-top:HOVER .outer,
+.nextend-transition-next-square-top-dark:HOVER .inner,
+.nextend-transition-next-square-top-dark:HOVER .outer{  
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);        
+}
+
+/* THICK */
+
+.nextend-transition-previous-thick,
+.nextend-transition-next-thick,
+.nextend-transition-previous-thick-dark,
+.nextend-transition-next-thick-dark{ 
+    width: 40px;
+    height: 100%;
+    min-height: 40px;
+}
+
+.nextend-transition-previous-thick .outer,
+.nextend-transition-previous-thick .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/previous/thick.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.nextend-transition-next-thick .outer,
+.nextend-transition-next-thick .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/next/thick.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.nextend-transition-previous-thick-dark .outer,
+.nextend-transition-previous-thick-dark .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/previous/thick-dark.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.nextend-transition-next-thick-dark .outer,
+.nextend-transition-next-thick-dark .inner{
+    background-image: url(//webforum.grifare.com/wp-content/plugins/smart-slider-2/plugins/nextendsliderwidgetarrow/transition/transition/next/thick-dark.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.nextend-transition-previous-thick .outer,
+.nextend-transition-next-thick .outer{ 
+    width: 40px;
+    height: 100%; 
+    min-height: 40px;
+    background-color: RGBA(41,48,55,.9);
+}
+
+
+.nextend-transition-previous-thick-dark .outer,
+.nextend-transition-next-thick-dark .outer{ 
+    width: 40px;
+    height: 100%; 
+    min-height: 40px;
+    background-color: RGBA(252,252,252,.9);
+}  
+    
+.nextend-transition-previous-thick .inner,
+.nextend-transition-next-thick .inner{  
+    width: 40px;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    z-index: 1000;    
+    background-color: #7670c7;
+    opacity: 0;
+}
+
+.nextend-transition-previous-thick-dark .inner,
+.nextend-transition-next-thick-dark .inner{  
+    width: 40px;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    z-index: 1000;    
+    background-color: #7670c7;
+    opacity: 0;
+}
+
+.nextend-transition-previous-thick:HOVER .inner,
+.nextend-transition-next-thick:HOVER .inner,
+.nextend-transition-previous-thick-dark:HOVER .inner,
+.nextend-transition-next-thick-dark:HOVER .inner{  
+  opacity: 1;   
+}.nextend-bullet-container{
+    z-index: 10;
+    visibility: visible;
+    display: inline-block;
+}
+
+.nextend-bullet{
+    cursor: pointer;
+}
+
+.nextend-bullet-vertical .nextend-bullet{
+    float: left;
+    clear: left;
+}
+
+.nextend-bullet.active{
+    cursor: default;
+}
+
+.nextend-bullet .nextend-bullet-transition.bullet-shadow-inner{
+  box-shadow:  0 1px 0 RGBA(255,255,255,.2), 0 1px 2px RGBA(0,0,0,.5) inset;
+}
+
+.nextend-bullet .nextend-bullet-transition.bullet-shadow-outer{
+  box-shadow:  0 1px 1px RGBA(0,0,0,.3);
+}
+
+.nextend-bullet-container.nextend-bullet.nextend-bullet-transition.bullet-bar-simple-rounded{
+  -webkit-border-radius: 99px;
+  -moz-border-radius: 99px;
+  border-radius: 99px; 
+  padding: 8px 10px;
+}
+
+.nextend-bullet-container.nextend-bullet.nextend-bullet-transition.bullet-bar-elegant-rounded{
+  -webkit-border-radius: 99px;
+  -moz-border-radius: 99px;
+  border-radius: 99px; 
+  padding: 6px 10px;
+  box-shadow: 0 0 0 1px RGBA(0,0,0,.5), 0 0 0 1px RGBA(255,255,255,.2) inset;
+}
+.nextend-bullet-container.nextend-bullet.nextend-bullet-transition.bullet-bar-simple{
+  padding: 8px 10px;
+}
+
+.nextend-bullet-container.nextend-bullet.nextend-bullet-transition.bullet-bar-elegant{
+  padding: 6px 10px;
+  box-shadow: 0 0 0 1px RGBA(0,0,0,.5), 0 0 0 1px RGBA(255,255,255,.2) inset;
+}
+
+.nextend-bullet-transition .nextend-bullet-transition{
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    display: inline-block;
+}
+
+.x-msie-7 .nextend-bullet-transition .nextend-bullet-transition{
+    display: inline;
+    zoom: 1;
+}
+
+.nextend-bullet-transition .nextend-bullet-transition{
+  background: RGBA(0,0,0,0.6);
+  border-color: RGBA(0,0,0,0.6);
+}
+
+.nextend-bullet-transition .nextend-bullet-transition.active,
+.nextend-bullet-transition .nextend-bullet-transition:HOVER{
+  background: #7670C7;
+  border-color: RGBA(0,0,0,0.6);
+}
+
+.nextend-bullet-container.nextend-bullet-transition-simple .nextend-bullet{
+    width: 12px;
+    height: 12px;
+    margin: 4px;
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px;     
+}
+
+.nextend-bullet-container.nextend-bullet-transition-simple-small .nextend-bullet{
+    width: 9px;
+    height: 9px;
+    margin: 3px;
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px;     
+}
+
+.nextend-bullet-container.nextend-bullet-transition-simple-mini .nextend-bullet{
+    width: 6px;
+    height: 6px;
+    margin: 3px;
+    border-width: 2px;
+    border-style: solid;
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px;     
+}
+
+.nextend-bullet-container.nextend-bullet-transition-simple-scale .nextend-bullet{
+    width: 14px;
+    height: 14px;
+    margin: 6px 4px;
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px;    
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    -o-transform: scale(0.75);
+    transform: scale(0.75);
+}
+
+
+.nextend-bullet-container.nextend-bullet-transition-simple-scale .nextend-bullet.active,
+.nextend-bullet-container.nextend-bullet-transition-simple-scale .nextend-bullet:HOVER{
+  transform: scale(1);
+}
+
+.nextend-bullet-container.nextend-bullet-transition-simple-circle .nextend-bullet{
+  width: 10px;
+  height: 10px;
+  margin: 4px;
+  border-width: 2px;
+  border-style: solid;
+  -webkit-border-radius: 99px;
+  -moz-border-radius: 99px;
+  border-radius: 99px;     
+}
+
+.nextend-bullet-container.nextend-bullet-transition-simple-circle-bold .nextend-bullet{
+  width: 6px;
+  height: 6px;
+  margin: 4px;
+  border-width: 3px;
+  border-style: solid;
+  -webkit-border-radius: 99px;
+  -moz-border-radius: 99px;
+  border-radius: 99px;     
+}
+
+.nextend-bullet-container.nextend-bullet-transition-rectangle .nextend-bullet{
+  width: 20px;
+  height: 6px;
+  margin: 3px;
+}
+
+.nextend-bullet-container.nextend-bullet-transition-square .nextend-bullet{
+  width: 15px;
+  height: 15px;
+  margin: 4px;
+}
+/*!
+ * qTip2 - Pretty powerful tooltips - 
+ * http://qtip2.com
+ *
+ * Copyright (c) 2013 Craig Michael Thompson
+ * Released under the MIT, GPL licenses
+ * http://jquery.org/license
+ *
+ * Date: Thu May 9 2013 04:46 UTC+0000
+ * Plugins: svg ajax tips modal viewport imagemap ie6
+ * Styles: basic css3
+ */
+
+/* Core qTip styles */
+.qtip, .qtip{
+	position: absolute;
+	left: -28000px;
+	top: -28000px;
+	display: none;
+	max-width: 380px;
+	min-width: 50px;	
+	font-size: 12px;
+	line-height: 16px;
+	direction: ltr;	
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: normal;
+  color: white;  
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	text-shadow: 0 -1px 1px RGBA(0,0,0,0.6);
+}
+
+	.qtip-content{
+		position: relative;
+		padding: 12px 20px;
+		overflow: hidden;
+		text-align: left;
+  	word-wrap: break-word;
+  	font-size: 12px;
+  	line-height: 16px;
+	}
+
+	.qtip-titlebar{
+		position: relative;
+		padding: 5px 35px 5px 10px;
+		overflow: hidden;
+		border-width: 0 0 2px;
+	}
+
+/* Default tooltip style */
+.qtip-default{
+	background-color: RGBA(51,56,58,0.95);
+}
+
+	.qtip-default .qtip-titlebar{
+		background-color: #FFEF93;
+	}
+
+	.qtip-default .qtip-icon{
+		border-color: #CCC;
+		background: #F1F1F1;
+		color: #777;
+	}
+	
+	.qtip-default .qtip-titlebar .qtip-close{
+		border-color: #AAA;
+		color: #111;
+	}
+
+
+  /* Add shadows to your tooltips in: FF3+, Chrome 2+, Opera 10.6+, IE9+, Safari 2+ */
+  .qtip-shadow{
+  	-webkit-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  	-moz-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  /* Tips plugin */
+  .qtip .qtip-tip{
+  	margin: 0 auto;
+  	overflow: hidden;
+  	z-index: 10;
+  }
+  
+  .qtip-tip canvas{
+    background: red;
+  }
+
+	.qtip .qtip-tip,
+	.qtip .qtip-tip .qtip-vml{
+		position: absolute;
+		color: #123456;
+		background: transparent;
+		border: 0 dashed transparent;
+	}
+	
+	.qtip .qtip-tip canvas{ top: 0; left: 0; float:left; }
+
+	.qtip .qtip-tip .qtip-vml{
+		behavior: url(#default#VML);
+		display: inline-block;
+		visibility: visible;
+	}
+
+
+
+/* IE6 Modal plugin fix */
+.qtipmodal-ie6fix{
+	position: absolute !important;
+}

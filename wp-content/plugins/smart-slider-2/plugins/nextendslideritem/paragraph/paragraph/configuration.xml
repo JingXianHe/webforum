@@ -1,0 +1,18 @@
+<root translate="1">
+    <params label="Text_item_settings">
+        <param name="content" type="textarea" label="Text" default="" />
+        <param name="fontclass" type="fontmatrixchooser" label="Font" default="" />
+        <param name="fontsize" type="text" label="Font size" default="auto" style="width:30px;">
+            <unit>percent</unit>
+        </param>
+        <param name="fontcolor" type="mixed" label="Font color" default="0|*|000000">
+            <param type="onoff" label="Enabled" />
+            <param type="color" label="Color" />
+        </param>
+        <param name="css" type="textarea" label="CSS" default="" />
+        <param name="class" type="text" label="Custom_css_class" default="" />
+        <param name="onmouseenter" type="text" label="Event on mouseenter" description="JavaScript code to run on the event" default=""/>
+        <param name="onmouseclick" type="text" label="Event on mouseclick" description="JavaScript code to run on the event" default=""/>
+        <param name="onmouseleave" type="text" label="Event on mouseleave" description="JavaScript code to run on the event" default=""/>
+    </params>
+</root>
